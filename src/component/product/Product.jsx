@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './Product.css';
 
 
-const Products = (props) => {
+const products = (props) => {
     
     
     const {img, name, seller, ratings, price} = props.product;
@@ -26,4 +26,4 @@ const Products = (props) => {
     );
     };
 
-export default Products;
+export default products;
